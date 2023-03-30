@@ -10,10 +10,17 @@ public class Main {
         x.size="1234cc";
         x.weight="220kg";
 
+
         Color color=new Color();
 
         color.colorLights="True";
         color.colorTyre="false";
         color.colorWindows="True";
+
+        lights neon=new lights();
+        neon.color="red";
+        neon.size="15cm";
+        neon.intesity="10000lm";
+
     }
 }
